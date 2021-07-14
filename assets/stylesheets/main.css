@@ -38,12 +38,183 @@ body {
     background-color: goldenrod;
 }
 
-
 .botom {
     height: 10px;
 }
 
-@media screen and (min-width: 1086px) {
+@media screen and (min-width: 760px) {
+    /* .nav-items {
+        display: none;
+    } */
+    .grid {
+        height: 25px;
+        width: 25px;
+        margin-left: 10px;
+        margin-top: 10px;
+        float: left;
+        background-image: url(data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnPjxwYXRoIGQ9J00zIDNoNHY0SDN6bTE0IDBoNHY0aC00em0tNyAwaDR2NGgtNHptLTcgN2g0djRIM3ptMTQgMGg0djRoLTR6bS03IDBoNHY0aC00em0tNyA3aDR2NEgzem0xNCAwaDR2NGgtNHptLTcgMGg0djRoLTR6JyBmaWxsPScjQTdBQUIyJy8+PC9zdmc+);
+    }
+    .TNW_container {
+        height: 115px;
+        width: 450px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 35px;
+    }
+    .heart {
+        height: 48px;
+        width: 200px;
+        font-size: 18px;
+        font-weight: 400;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+    }
+    .articles {
+        margin-top: 20px;
+        margin-left: 20px;
+        display: grid;
+        grid-template-columns: 450px 450px;
+        grid-template-rows: 390px 190px 190px;
+        column-gap: 10px;
+        row-gap: 10px;
+        margin-bottom: 100px;
+    }
+    .articles * {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .google h6 {
+        color: black;
+        margin-top: 335px;
+        margin-left: 20px;
+    }
+    .google h3 {
+        color: black;
+        margin-top: 5px;
+        margin-left: 20px;
+    }
+    .greatnews h6 {
+        color: black;
+        margin-top: 135px;
+        margin-left: 20px;
+    }
+    .greatnews h3 {
+        color: black;
+        margin-top: 5px;
+        margin-left: 20px;
+    }
+    .neural h6 {
+        color: black;
+        margin-top: 115px;
+        margin-left: 20px;
+    }
+    .neural h3 {
+        color: black;
+        margin-top: 5px;
+        margin-left: 20px;
+    }
+    .video h6 {
+        color: black;
+        margin-top: 115px;
+        margin-left: 20px;
+    }
+    .video h3 {
+        color: black;
+        margin-top: 5px;
+        margin-left: 20px;
+    }
+    .twitter h6 {
+        color: black;
+        margin-top: 135px;
+        margin-left: 20px;
+    }
+    .twitter h3 {
+        color: black;
+        margin-top: 5px;
+        margin-left: 20px;
+    }
+
+    .google {
+        grid-column: 1 / 3;
+        grid-row: 1 / 2;
+        background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/06/Quantum1.jpg');
+    }
+    .greatnews {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+        background-image: url('https://img-cdn.tnwcdn.com/image?fit=600%2C300&url=https%3A%2F%2Fs3.amazonaws.com%2Fevents.tnw%2Fhardfork-2018%2Fuploads%2Fvisuals%2Fnext_home-promo_tnw2021-1146x372.jpg&signature=1524156861730ee8f13906f3306d615a');
+    }
+    .neural {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/07/Hacktivism-hed-shutterstock_1246949239-copy.jpg')
+    }
+    .video {
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+        background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/07/Triangulum-Galaxy-hed-guillermo-ferla-kEEl9csCutg-unsplash-copy.jpg');
+    }
+    .twitter {
+        grid-column: 2 / 3;
+        grid-row: 3 / 4;
+        background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/07/Untitled-design-9.jpg');
+    }
+    .TNW1 {
+        display: none;
+    }
+    .TNW2 {
+        height: 16px;
+        width: 66px;
+        padding-top: 14px;
+        padding-left: 12px;
+        float: left;
+    }
+    .nav-items {
+        display: none;
+        /* background-color: crimson; */
+        margin-left: 28%;
+        /* margin-right: auto; */
+        /* padding-top: 16px; */
+        width: 600px;
+        justify-content: center;
+        height: 100%;
+    }
+    .nav-item-container {
+        padding-top: 14px;
+        padding-left: 11px;
+        padding-right: 11px;
+    }
+    .nav-item-container:hover {
+        background-color: rgba(255, 255, 255);
+    }
+    .nav-item-container:hover * {
+        color: rgba(0, 0, 0);
+    }
+    .nav-items a {
+        color: rgb(80, 86, 102);
+        font-family: 'Shentox', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        text-decoration: none;
+    }
+    .downy::after {
+        position: relative;
+        pointer-events: none;
+        float: right;
+        margin-left: 10px;
+        height: .75rem;
+        width: .75rem;
+        background-image: url(data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAxMiAxMic+PHBhdGggZmlsbD0nbm9uZScgc3Ryb2tlPScjQTdBQUIyJyBkPSdNMTEuNSAzLjVMNiA5IC41IDMuNScvPjwvc3ZnPg==);
+        content: "";
+        margin-top: 5px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .grid {
+        display: none;
+    }
     .TNW_container {
         height: 56.15px;
         width: 231.63px;
@@ -70,47 +241,97 @@ body {
         row-gap: 10px;
         margin-bottom: 100px;
     }
-
     .articles * {
         background-size: cover;
         background-repeat: no-repeat;
     }
 
-    /* background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/07/Hacktivism-hed-shutterstock_1246949239-copy.jpg'); */
+    .google h6 {
+        color: black;
+        margin-top: 255px;
+        margin-left: 20px;
+    }
+    .google h3 {
+        color: black;
+        margin-top: 5px;
+        margin-left: 20px;
+    }
+    .greatnews h6 {
+        color: black;
+        margin-top: 185px;
+        margin-left: 20px;
+    }
+    .greatnews h3 {
+        color: black;
+        margin-top: 5px;
+        margin-left: 20px;
+    }
+    .neural h6 {
+        color: black;
+        margin-top: 115px;
+        margin-left: 20px;
+    }
+    .neural h3 {
+        color: black;
+        margin-top: 5px;
+        margin-left: 20px;
+    }
+    .video h6 {
+        color: black;
+        margin-top: 115px;
+        margin-left: 20px;
+    }
+    .video h3 {
+        color: black;
+        margin-top: 5px;
+        margin-left: 20px;
+    }
+    .twitter h6 {
+        color: black;
+        margin-top: 314px;
+        margin-left: 20px;
+    }
+    .twitter h3 {
+        color: black;
+        margin-top: 5px;
+        margin-left: 20px;
+    }
 
     .google {
         grid-column: 1 / 2;
         grid-row: 1 / 3;
-        background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/06/Quantum1.jpg');
-        
+        /* background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/06/Quantum1.jpg'); */
     }
     .greatnews {
         grid-column: 1 / 2;
         grid-row: 3 / 4;
-        background-image: url('https://img-cdn.tnwcdn.com/image?fit=600%2C300&url=https%3A%2F%2Fs3.amazonaws.com%2Fevents.tnw%2Fhardfork-2018%2Fuploads%2Fvisuals%2Fnext_home-promo_tnw2021-1146x372.jpg&signature=1524156861730ee8f13906f3306d615a');
-        
+        /* background-image: url('https://img-cdn.tnwcdn.com/image?fit=600%2C300&url=https%3A%2F%2Fs3.amazonaws.com%2Fevents.tnw%2Fhardfork-2018%2Fuploads%2Fvisuals%2Fnext_home-promo_tnw2021-1146x372.jpg&signature=1524156861730ee8f13906f3306d615a'); */
     }
     .neural {
         grid-column: 2 / 3;
         grid-row: 1 / 2;
-        background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/07/Hacktivism-hed-shutterstock_1246949239-copy.jpg')
+        /* background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/07/Hacktivism-hed-shutterstock_1246949239-copy.jpg') */
     }
     .video {
         grid-column: 3 / 4;
         grid-row: 1 / 2;
-        background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/07/Triangulum-Galaxy-hed-guillermo-ferla-kEEl9csCutg-unsplash-copy.jpg');
+        /* background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/07/Triangulum-Galaxy-hed-guillermo-ferla-kEEl9csCutg-unsplash-copy.jpg'); */
     }
     .twitter {
         grid-column: 2 / 4;
         grid-row: 2 / 4;
-        background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/07/Untitled-design-9.jpg');
+        /* background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/07/Untitled-design-9.jpg'); */
     }
-    .TNW {
+    .TNW1 {
         height: 16px;
         width: 66px;
         padding-top: 16px;
         padding-left: 24px;
         float: left;
+        display: inline;
+    }
+    .TNW2 {
+        display: none;
     }
     .nav-items {
         display: flex;
@@ -140,7 +361,6 @@ body {
         font-weight: 400;
         text-decoration: none;
     }
-    .nav-items a:hover {}
     .downy::after {
         position: relative;
         pointer-events: none;
@@ -155,5 +375,3 @@ body {
 }
 
 @media screen and (min-width: 1024px) {}
-
-@media screen and (min-width: 760px) {}
