@@ -42,7 +42,7 @@ body {
     height: 10px;
 }
 
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 0px) {
     /* .nav-items {
         display: none;
     } */
